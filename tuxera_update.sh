@@ -1330,7 +1330,7 @@ if [ -n "$path_prepend" ] ; then
 fi
 
 # Temporary disable path restrictions on android
-export TEMPORARY_DISABLE_PATH_RESTRICTIONS=y
+# export TEMPORARY_DISABLE_PATH_RESTRICTIONS=y
 
 check_cmds tar find grep readlink cut sed
 # Check specified output-dir exists
